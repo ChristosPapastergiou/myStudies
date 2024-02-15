@@ -59,7 +59,7 @@ React, Vite, Tailwind, Express, MongoDB
         - Home : Main Page for teachers
             - Home.jsx : Central page providing information about the courses a teacher has taken in the semester.
 
-# How to run the app
+# Run the app
 
 Frontend :
 
@@ -76,19 +76,14 @@ Backend:
 # Users
 
 Students:
-    - usernames:
-        - sdi2400001
-        - sdi1900125
-        - sdi2400222
+- usernames:
+    - sdi2400001
+    - sdi1900125
+    - sdi2400222
 
 Professors:
-    - usernames:
-        - ioikonomou
-        - nickpetras
+- usernames:
+    - ioikonomou
+    - nickpetras
 
 - The password for every user is ```pass123```
-
-----------------
-### Notes
-- For the sake of simplifying the database and API requests, we assume that there is only one department in this school. Therefore, we fetch all the courses available and offered to students from the database.
-- Modifying course declarations is accomplished similarly to creating a new course declaration. If there is a previous declaration, it is deleted, and the new one is stored. (The courses selected in the previous declaration are not automatically selected in the new one).
