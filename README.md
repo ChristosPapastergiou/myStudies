@@ -9,7 +9,11 @@ The recostruction of a page involves 3 steps :
 
 # What has been used in the app
 
-React, Vite, Tailwind, Express, MongoDB
+- React
+- Vite
+- Tailwind
+- Express
+- MongoDB
 
 # Code Organization:
 - The code is organized with a focus on easy extensibility. 
