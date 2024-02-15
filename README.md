@@ -1,12 +1,17 @@
-# MyStudies
-This university project, assigned to us, involved substantial effort and collaboration. It aimed at revamping the existing University of Athens (UOA) website (for declarations and grades).
+# University Page (UOA)
 
-### What we are using in the app
+Reconstruction of the university page (UOA).
+
+The recostruction of a page involves 3 steps :
+- Finding as many errors as possible can be found (Research and tests in the page)
+- Redesigning the appearance of the page to make it better and reduce the founded errors (Figma)
+- Implemention of the page with the application of the previous steps
+
+# What has been used in the app
+
 React, Vite, Tailwind, Express, MongoDB
 
-For the Prototype we used [Figma](https://www.figma.com/file/G9FXzjkKKNMqredxWsxKxR/Prototype---myStudies?type=design&mode=design&t=nKUkcNxNkejS2dJj-1)
-
-### Code Organization:
+# Code Organization:
 - The code is organized with a focus on easy extensibility. 
     - components : Tools/Pages needed in multiple places on our pages.
     - Pages are organized into categories according to their type.
@@ -54,9 +59,8 @@ For the Prototype we used [Figma](https://www.figma.com/file/G9FXzjkKKNMqredxWsx
         - Home : Main Page for teachers
             - Home.jsx : Central page providing information about the courses a teacher has taken in the semester.
 
-----------------
+# How to run the app
 
-### How to run the app
 Frontend :
 
     cd myStudies 
@@ -69,17 +73,18 @@ Backend:
     npm install
     node index.js
 
-### Users
+# Users
+
 Students:
-- usernames:
-    - sdi2400001
-    - sdi1900125
-    - sdi2400222
+    - usernames:
+        - sdi2400001
+        - sdi1900125
+        - sdi2400222
 
 Professors:
-- usernames:
-    - ioikonomou
-    - nickpetras
+    - usernames:
+        - ioikonomou
+        - nickpetras
 
 - The password for every user is ```pass123```
 
