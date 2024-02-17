@@ -79,13 +79,13 @@ Backend:
 
 # Users
 
--Students:
+- Students:
     - usernames:
         - sdi2400001
         - sdi1900125
         - sdi2400222
 
--Professors:
+- Professors:
     - usernames:
         - ioikonomou
         - nickpetras
