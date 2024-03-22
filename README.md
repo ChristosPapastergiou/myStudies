@@ -89,3 +89,5 @@ Backend:
     - nickpetras
 
 - The password for every user is ```pass123```
+
+In collaboration with [Anna Gogoula](https://github.com/annegog) and [Orestis Theodorou](https://github.com/Orestouio)
